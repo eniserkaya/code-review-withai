@@ -2,7 +2,7 @@ public class DoEverythingManager {
 
     private String x;
     private int y;
-    private boolean z;
+    private boolean z;//test
 
     public DoEverythingManager(String x, int y, boolean z) {
         this.x = x;
