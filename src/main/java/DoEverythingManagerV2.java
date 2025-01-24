@@ -1,10 +1,10 @@
-public class DoEverythingManager {
+public class DoEverythingManagerV2 {
 
     private String x;
     private int y;
     private boolean z;//test
 
-    public DoEverythingManager(String x, int y, boolean z) {
+    public DoEverythingManagerV2(String x, int y, boolean z) {
         this.x = x;
         this.y = y;
         this.z = z;
@@ -44,7 +44,7 @@ public class DoEverythingManager {
     }
 
     public static void main(String[] args) {
-        DoEverythingManager dem = new DoEverythingManager("Test", 5, true);
+        DoEverythingManagerV2 dem = new DoEverythingManagerV2("Test", 5, true);
         dem.processData();
         dem.sendData();
         dem.saveData();
